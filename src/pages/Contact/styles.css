@@ -1,0 +1,58 @@
+
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    -webkit-box-shadow: 9px -5px 24px -8px rgba(0,0,0,0.56);
+    -moz-box-shadow: 9px -5px 24px -8px rgba(0,0,0,0.56);
+    box-shadow: 9px -5px 24px -8px rgba(0,0,0,0.56);
+    width: 80%;
+    height: 30em;
+    background-color: white;
+    gap: 10px;
+    
+}
+
+.contact-email {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-social {
+    height: 100%;
+    width: 50%;
+    background-color: #2589a1;
+    background-image: url(../../assets/contato.webp);
+    background-size:cover;
+    background-position: center;
+    border-left: 1px solid gray ;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.contact-email input {
+  width: 20rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-email textarea {
+    border-radius: 5px;
+    padding: 10px;
+}

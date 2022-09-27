@@ -1,0 +1,28 @@
+.place-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 9px 5px 0px rgba(173,157,173,0.5);
+    width: 80%;
+    height: 400%;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.place-image {
+    width: 40%;
+    height: 80%;
+    
+}
+
+.place-detail:hover {
+    border: 10px solid #781f40;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.1);
+   border: solid 1px rgb(36,172,215);
+}

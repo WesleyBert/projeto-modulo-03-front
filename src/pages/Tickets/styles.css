@@ -1,0 +1,19 @@
+.tickets {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-tickets {
+    margin: 30px 100px;
+  width: 10%;
+}
+
+.tickets-list {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
