@@ -1,7 +1,8 @@
 export function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-successo" id="navegacao-cadastro">
-            <a className="navbar-brand" href="index.html"><img src="img/badge-vr.svg" alt="" width="60" height="40"></a>
+            <a className="navbar-brand" href="index.html">
+                <img src="img/badge-vr.svg" alt="" width="60" height="40"/></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span className="navbar-toggler-icon"></span>
             </button>

@@ -6,6 +6,7 @@ import { Modal, Button, Form, Row, Col } from 'react-bootstrap';
 import UserContext from '../../context/userInfoGlobal';
 
 export function Login() {
+    
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
